@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A05A731C25154713003ECF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A731B25154713003ECF11 /* AppDelegate.swift */; };
+		A05A731E25154713003ECF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A731D25154713003ECF11 /* SceneDelegate.swift */; };
+		A05A732025154713003ECF11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A731F25154713003ECF11 /* ViewController.swift */; };
+		A05A732325154713003ECF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05A732125154713003ECF11 /* Main.storyboard */; };
+		A05A732525154717003ECF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05A732425154717003ECF11 /* Assets.xcassets */; };
+		A05A732825154717003ECF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05A732625154717003ECF11 /* LaunchScreen.storyboard */; };
+		A05A733325154717003ECF11 /* TechPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A733225154717003ECF11 /* TechPodTests.swift */; };
+		A05A733E25154717003ECF11 /* TechPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A05A733D25154717003ECF11 /* TechPodUITests.swift */; };
+		A05A735425155658003ECF11 /* cannon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A05A734D25155658003ECF11 /* cannon.mp3 */; };
+		A05A735525155658003ECF11 /* elise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A05A734E25155658003ECF11 /* elise.mp3 */; };
+		A05A735625155658003ECF11 /* aria.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A05A734F25155658003ECF11 /* aria.mp3 */; };
+		A05A735725155658003ECF11 /* Beethoven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05A735125155658003ECF11 /* Beethoven.jpg */; };
+		A05A735825155658003ECF11 /* Pachelbel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05A735225155658003ECF11 /* Pachelbel.jpg */; };
+		A05A735925155658003ECF11 /* Bach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A05A735325155658003ECF11 /* Bach.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05A732F25154717003ECF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05A731025154713003ECF11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05A731725154713003ECF11;
+			remoteInfo = TechPod;
+		};
+		A05A733A25154717003ECF11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05A731025154713003ECF11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05A731725154713003ECF11;
+			remoteInfo = TechPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A05A731825154713003ECF11 /* TechPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05A731B25154713003ECF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A05A731D25154713003ECF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A05A731F25154713003ECF11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A05A732225154713003ECF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05A732425154717003ECF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05A732725154717003ECF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05A732925154717003ECF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05A732E25154717003ECF11 /* TechPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05A733225154717003ECF11 /* TechPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPodTests.swift; sourceTree = "<group>"; };
+		A05A733425154717003ECF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05A733925154717003ECF11 /* TechPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05A733D25154717003ECF11 /* TechPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechPodUITests.swift; sourceTree = "<group>"; };
+		A05A733F25154717003ECF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05A734D25155658003ECF11 /* cannon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cannon.mp3; sourceTree = "<group>"; };
+		A05A734E25155658003ECF11 /* elise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = elise.mp3; sourceTree = "<group>"; };
+		A05A734F25155658003ECF11 /* aria.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = aria.mp3; sourceTree = "<group>"; };
+		A05A735125155658003ECF11 /* Beethoven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beethoven.jpg; sourceTree = "<group>"; };
+		A05A735225155658003ECF11 /* Pachelbel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pachelbel.jpg; sourceTree = "<group>"; };
+		A05A735325155658003ECF11 /* Bach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bach.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05A731525154713003ECF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A732B25154717003ECF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A733625154717003ECF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05A730F25154713003ECF11 = {
+			isa = PBXGroup;
+			children = (
+				A05A731A25154713003ECF11 /* TechPod */,
+				A05A733125154717003ECF11 /* TechPodTests */,
+				A05A733C25154717003ECF11 /* TechPodUITests */,
+				A05A731925154713003ECF11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A05A731925154713003ECF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05A731825154713003ECF11 /* TechPod.app */,
+				A05A732E25154717003ECF11 /* TechPodTests.xctest */,
+				A05A733925154717003ECF11 /* TechPodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05A731A25154713003ECF11 /* TechPod */ = {
+			isa = PBXGroup;
+			children = (
+				A05A734B25155658003ECF11 /* Resources */,
+				A05A731B25154713003ECF11 /* AppDelegate.swift */,
+				A05A731D25154713003ECF11 /* SceneDelegate.swift */,
+				A05A731F25154713003ECF11 /* ViewController.swift */,
+				A05A732125154713003ECF11 /* Main.storyboard */,
+				A05A732425154717003ECF11 /* Assets.xcassets */,
+				A05A732625154717003ECF11 /* LaunchScreen.storyboard */,
+				A05A732925154717003ECF11 /* Info.plist */,
+			);
+			path = TechPod;
+			sourceTree = "<group>";
+		};
+		A05A733125154717003ECF11 /* TechPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05A733225154717003ECF11 /* TechPodTests.swift */,
+				A05A733425154717003ECF11 /* Info.plist */,
+			);
+			path = TechPodTests;
+			sourceTree = "<group>";
+		};
+		A05A733C25154717003ECF11 /* TechPodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A05A733D25154717003ECF11 /* TechPodUITests.swift */,
+				A05A733F25154717003ECF11 /* Info.plist */,
+			);
+			path = TechPodUITests;
+			sourceTree = "<group>";
+		};
+		A05A734B25155658003ECF11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A05A734C25155658003ECF11 /* Songs */,
+				A05A735025155658003ECF11 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A05A734C25155658003ECF11 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				A05A734D25155658003ECF11 /* cannon.mp3 */,
+				A05A734E25155658003ECF11 /* elise.mp3 */,
+				A05A734F25155658003ECF11 /* aria.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		A05A735025155658003ECF11 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A05A735125155658003ECF11 /* Beethoven.jpg */,
+				A05A735225155658003ECF11 /* Pachelbel.jpg */,
+				A05A735325155658003ECF11 /* Bach.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05A731725154713003ECF11 /* TechPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05A734225154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPod" */;
+			buildPhases = (
+				A05A731425154713003ECF11 /* Sources */,
+				A05A731525154713003ECF11 /* Frameworks */,
+				A05A731625154713003ECF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TechPod;
+			productName = TechPod;
+			productReference = A05A731825154713003ECF11 /* TechPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05A732D25154717003ECF11 /* TechPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05A734525154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPodTests" */;
+			buildPhases = (
+				A05A732A25154717003ECF11 /* Sources */,
+				A05A732B25154717003ECF11 /* Frameworks */,
+				A05A732C25154717003ECF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05A733025154717003ECF11 /* PBXTargetDependency */,
+			);
+			name = TechPodTests;
+			productName = TechPodTests;
+			productReference = A05A732E25154717003ECF11 /* TechPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A05A733825154717003ECF11 /* TechPodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05A734825154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPodUITests" */;
+			buildPhases = (
+				A05A733525154717003ECF11 /* Sources */,
+				A05A733625154717003ECF11 /* Frameworks */,
+				A05A733725154717003ECF11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05A733B25154717003ECF11 /* PBXTargetDependency */,
+			);
+			name = TechPodUITests;
+			productName = TechPodUITests;
+			productReference = A05A733925154717003ECF11 /* TechPodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05A731025154713003ECF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = com.litech;
+				TargetAttributes = {
+					A05A731725154713003ECF11 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					A05A732D25154717003ECF11 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = A05A731725154713003ECF11;
+					};
+					A05A733825154717003ECF11 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = A05A731725154713003ECF11;
+					};
+				};
+			};
+			buildConfigurationList = A05A731325154713003ECF11 /* Build configuration list for PBXProject "TechPod" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05A730F25154713003ECF11;
+			productRefGroup = A05A731925154713003ECF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05A731725154713003ECF11 /* TechPod */,
+				A05A732D25154717003ECF11 /* TechPodTests */,
+				A05A733825154717003ECF11 /* TechPodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05A731625154713003ECF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05A732825154717003ECF11 /* LaunchScreen.storyboard in Resources */,
+				A05A735425155658003ECF11 /* cannon.mp3 in Resources */,
+				A05A735925155658003ECF11 /* Bach.jpg in Resources */,
+				A05A735525155658003ECF11 /* elise.mp3 in Resources */,
+				A05A732525154717003ECF11 /* Assets.xcassets in Resources */,
+				A05A735825155658003ECF11 /* Pachelbel.jpg in Resources */,
+				A05A732325154713003ECF11 /* Main.storyboard in Resources */,
+				A05A735625155658003ECF11 /* aria.mp3 in Resources */,
+				A05A735725155658003ECF11 /* Beethoven.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A732C25154717003ECF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A733725154717003ECF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05A731425154713003ECF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05A732025154713003ECF11 /* ViewController.swift in Sources */,
+				A05A731C25154713003ECF11 /* AppDelegate.swift in Sources */,
+				A05A731E25154713003ECF11 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A732A25154717003ECF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05A733325154717003ECF11 /* TechPodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05A733525154717003ECF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05A733E25154717003ECF11 /* TechPodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05A733025154717003ECF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05A731725154713003ECF11 /* TechPod */;
+			targetProxy = A05A732F25154717003ECF11 /* PBXContainerItemProxy */;
+		};
+		A05A733B25154717003ECF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05A731725154713003ECF11 /* TechPod */;
+			targetProxy = A05A733A25154717003ECF11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A05A732125154713003ECF11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05A732225154713003ECF11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A05A732625154717003ECF11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05A732725154717003ECF11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05A734025154717003ECF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A05A734125154717003ECF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05A734325154717003ECF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A05A734425154717003ECF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A05A734625154717003ECF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechPod.app/TechPod";
+			};
+			name = Debug;
+		};
+		A05A734725154717003ECF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPodTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TechPod.app/TechPod";
+			};
+			name = Release;
+		};
+		A05A734925154717003ECF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechPod;
+			};
+			name = Debug;
+		};
+		A05A734A25154717003ECF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TechPodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechPodUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TechPod;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05A731325154713003ECF11 /* Build configuration list for PBXProject "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05A734025154717003ECF11 /* Debug */,
+				A05A734125154717003ECF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05A734225154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05A734325154717003ECF11 /* Debug */,
+				A05A734425154717003ECF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05A734525154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05A734625154717003ECF11 /* Debug */,
+				A05A734725154717003ECF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05A734825154717003ECF11 /* Build configuration list for PBXNativeTarget "TechPodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05A734925154717003ECF11 /* Debug */,
+				A05A734A25154717003ECF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05A731025154713003ECF11 /* Project object */;
+}
